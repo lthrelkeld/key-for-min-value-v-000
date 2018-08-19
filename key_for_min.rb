@@ -13,6 +13,7 @@ def key_for_min_value(name_hash)
     else
      min_key
     end
- end
- min_key
+  end
+
+  name_hash == [] ? nil else min_key
 end
