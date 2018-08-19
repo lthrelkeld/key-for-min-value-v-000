@@ -15,5 +15,5 @@ def key_for_min_value(name_hash)
     end
   end
 
-  name_hash == [] ? nil : min_key
+  name_hash.empty? ? nil : min_key
 end
