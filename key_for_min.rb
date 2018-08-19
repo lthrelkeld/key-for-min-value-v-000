@@ -7,7 +7,7 @@ def key_for_min_value(name_hash)
   puts starting_value
 
   name_hash.each do |key, value|
-      if minimum_value < value
+      if minimum_value>value
         min_key = key
       else
         min_key
